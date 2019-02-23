@@ -1,11 +1,11 @@
-@media only screen and (max-width: 450px) {
+/* @media only screen and (max-width: 450px) {
   #restaurants-list li {
     background-color: pink;
     min-height: 50px;
     height: 100px;
     width: 100%;
 
-    /* display: grid;
+    display: grid;
     grid-template-columns: 33.3% 33% 33.3%;
     grid-template-rows: auto auto auto auto;
     grid-gap: 0;
@@ -13,7 +13,7 @@
       "image name name"
       "image city city"
       "image address address"
-      "image details details"; */
+      "image details details";
   }
 
   #restaurants-list .restaurant-img {
@@ -36,5 +36,21 @@
   #restaurants-list li a {
     color: pink;
     grid-area: details;
+  }
+} */
+
+@media only screen and (max-width: 800px) {
+  #restaurant-container, #reviews-container {
+    width: 100%;
+    padding-top: 0;
+  }
+  .inside #map-container {
+    position: inherit;
+    height: 400px;
+    width: 100%;
+    padding-top: 131px;
+  }
+  #maincontent, .inside #footer, .inside #breadcrumb {
+    width: 100%;
   }
 }
